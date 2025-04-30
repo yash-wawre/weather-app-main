@@ -90,7 +90,7 @@ let geocode = {
       navigator.geolocation.getCurrentPosition(success, console.error);
     }
     else {
-      weather.fetchWeather("Manipal");
+      weather.fetchWeather("Nagpur");
     }
   }
 };
@@ -107,7 +107,7 @@ document
     }
   });
 
-weather.fetchWeather("Manipal");
+weather.fetchWeather("Nagpur");
 
 document
   .querySelector(".search-bar")
